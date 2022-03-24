@@ -1,0 +1,67 @@
+/* Navigasi */
+#main-navbar a {
+    border-bottom: 5px solid #f8f9fa;
+    text-transform: uppercase;
+}
+
+#main-navbar a:hover, #main-navbar .active {
+    border-bottom-color: black;
+    transition: border-color 500ms;
+}
+
+
+/* SHOWCASE */
+#showcase {
+    background: url("../img/showcase_bg.jpg");
+    height: 600px;
+    padding-top: 150px;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+#showcase h1 {
+    padding-top: 250px;
+}
+
+.dark-overlay{
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 600px;
+}
+
+/* PRODUCT */
+
+#product i[class^="bi"]{
+    font-size: 4rem;
+}
+
+.font{
+    color: whitesmoke;
+}
+
+/* FOOTER */
+
+/*footer*/
+/*footer{
+    background-color: #4070f4;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+
+}
+footer .text span{
+    font-size: 17px;
+    font-weight: 400px;
+    color: #ffff;
+}
+footer.text span a{
+    font-weight: 500px;
+    color: #ffff;
+}
+footer .text span a:hover{
+    text-decoration: underline;
+}*/
